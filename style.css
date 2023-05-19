@@ -1,0 +1,44 @@
+body{
+  background-image: url(./img/background.avif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.input {
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  padding: 1em;
+  background-color: #ccc;
+  box-shadow: inset 2px 5px 10px rgba(0,0,0,0.3);
+  transition: 300ms ease-in-out;
+}
+  
+.dropdown-menu .input:focus {
+  background-color: white;
+  transform: scale(1.05);
+  box-shadow: 13px 13px 100px #969696,
+             -13px -13px 100px #ffffff;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.wrapper_content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.wrapper_content .dropdown>button{
+  min-width: 300px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.dropdown-menu{
+  position: absolute;
+  width: 60%;
+  top: 45px;
+  left: 100px;
+}
