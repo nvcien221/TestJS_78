@@ -9,26 +9,6 @@ function addNumber() {
 document.querySelector("#btnAdd").onclick = addNumber;
 
 
-// // // Lấy tất cả các dropdown trên trang
-// const dropdowns = document.querySelectorAll('.dropdown');
-
-// // Duyệt qua từng dropdown và gán sự kiện "click"
-// dropdowns.forEach(dropdown => {
-//   const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
-//   const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-//   dropdownToggle.onclick = function() {
-//     dropdownMenu.classList.toggle('show');
-//   };
-// });
-
-
-// Lấy tham chiếu đến nút "calcSum"
-// var btnResult = document.querySelector(".dropdown-menu button");
-
-// // Ngăn chặn sự kiện click trên nút "calcSum"
-// btnResult.addEventListener("click", function(event) {
-//   event.stopPropagation(); // Ngăn chặn sự kiện lan rộng đến phần tử cha (dropdown)
-// });
 
 const btnResult = document.querySelectorAll(".dropdown-menu button");
 btnResult.forEach(btnResult => {
